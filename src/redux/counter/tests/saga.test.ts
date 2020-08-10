@@ -3,10 +3,6 @@ import { CounterActions } from "../action";
 import { expectSaga } from "redux-saga-test-plan";
 
 describe("Counterのテスト", () => {
-  test("increments", () => {
-    expect("INCREMENTS").toEqual("INCREMENTS");
-  });
-
   test("カウンターを10増加する", () => {
     const state = {
       counter: {
